@@ -58,11 +58,11 @@ namespace ParkSomewhere
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "947297087646-g8r854t1tam3fpg70at0v2hkiqlhvvir.apps.googleusercontent.com",
+                ClientSecret = "80K3hm7NIC_BHDkOeQSYwS1h"
+            });
         }
     }
 }
